@@ -13,7 +13,8 @@
         },
         methods: {
             saudacao: function() {
-                return 'Boa semana!'
+                return this.titulo 
+                //No Vue, não pode ter uma função e um dado com o mesmo nome, ele retorna o erro: " " is not a function
             }
         }
     })
